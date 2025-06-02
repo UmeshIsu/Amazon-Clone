@@ -50,7 +50,7 @@
        </div>
 
        <!-- Nav cart -->
-        <a href="" class="nav-cart">
+        <a href="cart.html" class="nav-cart">
             <img src="assets/cart_icon.png" alt="cart" width="35px">
             <h4>Cart</h4>
         </a>
@@ -226,5 +226,136 @@
             <button class="product-add-list">Add to list</button>
         </div>
     </div>
+
+    <div class="products-slider-with-price">
+        <h2>Related products</h2>
+        <div class="products">
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-1.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-2.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-3.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-4.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-5.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-6.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-7.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-8.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-9.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-10.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="products-card">
+                <div class="product-img-container">
+                    <img src="assets/product2-11.jpg" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p><span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.49</p>
+                <h4>This product is the best for you</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer class="product-footer">
+        <img src="assets/amazon_logo.png" width="100" alt="">
+        <p> &copy 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+
+    <script>
+        const scrollContainer = document.querySelectorAll('.products');
+        for (const item of scrollContainer){
+            item.addEventListener('wheel',(evt)=>{
+                evt.preventDefault();
+                item.scrollLeft+= evt.deltaY;
+    })
+}
+    </script>
 </body>
 </html>
