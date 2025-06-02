@@ -1,3 +1,4 @@
+// JS for header slider
 const imgs = document.querySelectorAll('.header-slider ul img');
 const prev_button = document.querySelector('.control_previous');
 const next_button = document.querySelector('.control_next');
@@ -28,3 +29,12 @@ next_button.addEventListener('click',(e)=>{
     }
     changeSlides();
 })
+
+// JS for the Mouse wheel scrollbar of products slider
+const scrollContainer = document.querySelectorAll('.products');
+for (const item of scrollContainer){
+    item.addEventListener('wheel',(evt)=>{
+        evt.preventDefault();
+        item.scrollLeft+= evt.deltaY;
+    })
+}
