@@ -66,6 +66,8 @@ body{
 .product-rating  h5{
     font-weight: 400;
 }
+
+/* Style for product price*/
 .product-d-price{
     display: flex;
     flex-direction: column;
@@ -98,4 +100,135 @@ body{
 }
 .product-d-price p span{
     color: #007185;
+}
+
+/* Color selector decorations*/
+.product-color-selector{
+    margin: 15px 0;
+}
+.product-color-options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #cbcbcb;
+    gap: 10px;
+}
+
+/*Product information decorations*/
+.product-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+/*Product description decorations*/
+.producti-description h1{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.producti-description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+/*Product purchse 3rd colume of the web page*/
+.product-d-purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 20px;
+}
+.product-d-purchase .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-d-purchase .price{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.product-d-purchase .price span{
+    font-size: 26px;
+    padding: 2px;
+}
+
+.product-d-purchase .gap{
+    margin: 15px 0;
+}
+.product-d-purchase p span{
+    color: #007185;
+}
+
+/*Delivery location*/
+.delivery-location{
+    display: flex;
+    align-items: center;
+    gap:3px
+}
+/*Stock*/
+.product-stock{
+    margin: 15px 0;
+    color: green;
+    font-weight: 400;
+}
+
+/*Quantity selector dropdown*/
+.product-quantity{
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #efefef;
+    border-color: #c1c1c1;
+}
+
+.product-d-purchase .btn{
+    outline: none;
+    border: none;
+    background: #ffd814;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-d-purchase .product-buy{
+    background: #ffa41c;
+}
+
+
+/*Seller infon*/
+.product-seller-info{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+    font-size: 14px;
+    color: #565656; 
+}
+.product-seller-info span{
+    color: #007185;
+}
+
+.product-d-purchase hr{
+    margin: 20px 0;
+}
+.product-add-list{
+    border:1px solid #000;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: start;
+    background: white;
+    cursor: pointer;
 }
