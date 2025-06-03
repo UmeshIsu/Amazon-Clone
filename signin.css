@@ -70,3 +70,42 @@ body{
     font-size: 13px;
     margin: 20px 0;
 }
+.signin-container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+.signin-container h4{
+    font-size: 13px;
+    margin: 15px 0;
+}
+.signin-business{
+    font-size: 13px;
+}
+.signin-bottom{
+    width: 350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.signin-bottom hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    width: 110px;
+}
+.signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+.signup-btn:hover{
+    background: #f1f1f1;
+}
