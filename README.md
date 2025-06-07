@@ -16,9 +16,6 @@ An Amazon clone created with **HTML**, **CSS**, and **JavaScript**. This project
   - CSS
   - JavaScript
 
-- **Styling**:
-  - Flexbox and Grid layout for responsive design
-  - Custom styling to replicate Amazon's UI
 
 ## Installation
 
