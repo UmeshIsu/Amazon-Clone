@@ -17,8 +17,6 @@ An Amazon clone created with **HTML**, **CSS**, and **JavaScript**. This project
   - JavaScript
 
 
-## Installation
-
 ### Prerequisites
 There are no special prerequisites for this project as it is purely frontend.
 
