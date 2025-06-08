@@ -20,8 +20,4 @@ An Amazon clone created with **HTML**, **CSS**, and **JavaScript**. This project
 ### Prerequisites
 There are no special prerequisites for this project as it is purely frontend.
 
-### Steps to run the project locally:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/UmeshIsu/Amazon-Clone.git
