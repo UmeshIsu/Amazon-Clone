@@ -1,4 +1,4 @@
-# Amazon Clone HTML,CSS,JS
+# Amazon Clone.
 
 An Amazon clone created with **HTML**, **CSS**, and **JavaScript**. This project replicates the look and feel of the Amazon website and includes features such as product browsing, adding items to the cart, and more.
 
